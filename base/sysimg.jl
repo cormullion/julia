@@ -23,8 +23,8 @@ let
     # Run with the `--exclude-jlls` option to filter out all JLL packages
     stdlibs = [
         # No dependencies
-        :ArgTools,
         :Artifacts,
+        :ArgTools,
         :Base64,
         :CRC32c,
         :FileWatching,
